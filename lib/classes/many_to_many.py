@@ -108,5 +108,5 @@ class Magazine:
 
     def contributing_authors(self):
         author_list = [article.author for article in self.articles()]
-        club3pub =[author for author in author_list if author_list.count(author) > 2]
-        return club3pub or None
+        clubmag =[author for author in author_list if author_list.count(author) > 2]
+        return clubmag or None
